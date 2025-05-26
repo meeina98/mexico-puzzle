@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff9f0;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #aa3300;
+  margin-bottom: 20px;
+}
+
+#puzzle-container {
+  margin: 0 auto;
+  display: grid;
+  gap: 1px;
+}
+
+.puzzle-piece {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
